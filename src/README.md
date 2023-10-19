@@ -17,7 +17,7 @@ For the specific fields and their types please refer to the UML class diagram.
 
 ### `ShipUtils.java`
 The ShipUtils Class should contain two static methods with the following signature:
-- `public static long calculateAllCosts(List<Ship> ship) `
+- `public static long calculateAllCosts(List<Ship> ship)`
 - `public static double calculateAverageCost(List<Ship> ship)`
 
 ### `ShipDemo.java`
