@@ -23,14 +23,17 @@ The ShipUtils Class should contain two static methods with the following signatu
 ### `ShipDemo.java`
 In the ShipDemo class create a main method and do the following: 
 Demonstrate the classes in a List of Ships. Assign all the concrete Ship types to the array elements. The program should then step through the list, calling each getCost() method. (polymorphism)
-For iterating over all the Ships, try all the 3 different ways:
+For iterating over all the Ships, try the use 3 different ways:
 - for loop
 - foreach loop
 - Iterator
 
+Now print all the individual costs of each Ship, the sum of it and the average as it is in screenshot.
+![](Output.png)
+
+Please follow also other guidelines:
 - for each concrete class try to have at least 3 different constructors
   - also use the `this()` constructor
 - implement in every class the `toString()` method
+- use the keyword `final` where it is applicable
 
-Now print all the individual costs of each Ship, the sum of it and the average as it is in screenshot.
-![](Output.png)
